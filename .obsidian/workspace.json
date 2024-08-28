@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec584f2c37250869",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "redis/散列.md",
+                "file": "redis/进阶/持久化.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48ead72645a7c32b",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis/散列.md",
+                "file": "redis/进阶/持久化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis/散列.md",
+                "file": "redis/进阶/持久化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis/散列.md"
+                "file": "redis/进阶/持久化.md"
               }
             }
           }
@@ -160,13 +146,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ec584f2c37250869",
+  "active": "0df66e49ff3eb67a",
   "lastOpenFiles": [
+    "redis/进阶/节省空间.md",
+    "redis/进阶/持久化.md",
+    "redis/进阶/管道.md",
+    "redis/进阶/消息.md",
+    "redis/列表.md",
+    "redis/进阶/排序.md",
+    "redis/进阶/事务.md",
+    "redis/进阶/过期.md",
+    "redis/集合.md",
     "redis/入门.md",
-    "tip.md",
+    "redis/进阶",
     "redis/散列.md",
-    "redis/字符串.md",
+    "redis/有序集合.md",
     "readme.md",
+    "redis/字符串.md",
+    "tip.md",
     "redis"
   ]
 }
