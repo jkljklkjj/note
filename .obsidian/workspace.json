@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis/散列.md",
+                "file": "redis/字符串.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48ead72645a7c32b",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis/散列.md",
+                "file": "redis/字符串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis/散列.md",
+                "file": "redis/字符串.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis/散列.md"
+                "file": "redis/字符串.md"
               }
             }
           }
@@ -163,8 +162,8 @@
   "active": "ec584f2c37250869",
   "lastOpenFiles": [
     "redis/入门.md",
-    "tip.md",
     "redis/散列.md",
+    "tip.md",
     "redis/字符串.md",
     "readme.md",
     "redis"
