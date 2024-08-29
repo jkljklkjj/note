@@ -1,31 +1,31 @@
 {
   "main": {
-    "id": "ff2b699b7cad50d0",
+    "id": "27544414cf5733b2",
     "type": "split",
     "children": [
       {
-        "id": "906e92450ba7e2d8",
+        "id": "72530677b4b9d269",
         "type": "tabs",
         "children": [
           {
-            "id": "0df66e49ff3eb67a",
+            "id": "277dce4638eef794",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "redis/入门.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ec584f2c37250869",
+            "id": "92521ecdd7d5b844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis/字符串.md",
+                "file": "redis/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,15 +38,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a1044ad092a1cb78",
+    "id": "18cad7fa5a7d010b",
     "type": "split",
     "children": [
       {
-        "id": "f85d795508534cdf",
+        "id": "aa47644cec1eb71c",
         "type": "tabs",
         "children": [
           {
-            "id": "b7fc660adcd6309d",
+            "id": "fbdb4a09b7df21f5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "90f6e245f3da0b91",
+            "id": "70fdecf6f63a7702",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +71,7 @@
             }
           },
           {
-            "id": "9e2ab273149bc04d",
+            "id": "0645af9389ba3b33",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,20 +85,20 @@
     "width": 300
   },
   "right": {
-    "id": "48ead72645a7c32b",
+    "id": "5fe208f776c1fd18",
     "type": "split",
     "children": [
       {
-        "id": "72d235a1f460de16",
+        "id": "738dbd03a5de262c",
         "type": "tabs",
         "children": [
           {
-            "id": "bf84e4848302718d",
+            "id": "f288e54dc78dd7a5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis/字符串.md",
+                "file": "redis/集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +110,19 @@
             }
           },
           {
-            "id": "c0a81a271cabd7bb",
+            "id": "ec6641bcda08b5db",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis/字符串.md",
+                "file": "redis/集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8eee246a8aae164c",
+            "id": "f354e8b4fdd1b9a9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +133,12 @@
             }
           },
           {
-            "id": "9386cea6775253e5",
+            "id": "cc3722fb4f96b632",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis/字符串.md"
+                "file": "redis/集合.md"
               }
             }
           }
@@ -159,13 +159,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ec584f2c37250869",
+  "active": "92521ecdd7d5b844",
   "lastOpenFiles": [
-    "redis/入门.md",
-    "redis/散列.md",
-    "tip.md",
-    "redis/字符串.md",
     "readme.md",
-    "redis"
+    "redis/有序集合.md",
+    "redis/入门.md",
+    "redis/运维/集群.md",
+    "redis/运维/哨兵.md",
+    "redis/散列.md",
+    "redis/进阶/持久化.md",
+    "redis/进阶/管道.md",
+    "redis/进阶/节省空间.md",
+    "redis/进阶/排序.md",
+    "redis/进阶/过期.md",
+    "redis/集合.md",
+    "tip.md",
+    "redis/进阶/事务.md",
+    "redis/列表.md",
+    "redis/进阶/消息.md",
+    "redis/运维"
   ]
 }
