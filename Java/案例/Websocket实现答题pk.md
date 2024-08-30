@@ -1,5 +1,5 @@
 https://juejin.cn/post/7344567644174106659
-
+<iframe src="https://juejin.cn/post/7344567644174106659" style="width:100%;height:600px"></iframe>
 ### 技术细节：
 
 状态同步：在对战中，通过WebSocket实时同步玩家的操作和游戏状态，每个动作都通过服务器广播给所有参与者，确保了游戏进程的同步性和准确性。
