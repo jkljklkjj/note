@@ -1,0 +1,6 @@
+最官方的方法是使用[官方初始器](https://start.spring.io/)
+1. 选择是否为Maven
+2. 选择语言是否为Java
+3. 选择SpringBoot的版本
+4. 配置项目所在组，具体模块，名称，描述，Java版本和是否为Jar包
+5. 配置依赖Dependencies（也可以Maven配置）
