@@ -53,7 +53,7 @@ public class GreetingController {
 		@RequestParam(value = "name", defaultValue = "World") String name) {
 
 		Greeting greeting = new Greeting(String.format(TEMPLATE, name));
-		greeting.add(linkTo(methodOn(GreetingController.class).greeting(name)).withSelfRel());
+			greeting.add(linkTo(methodOn(GreetingController.class).greeting(name)).withSelfRel());
 
 		return new ResponseEntity<>(greeting, HttpStatus.OK);
 	}
