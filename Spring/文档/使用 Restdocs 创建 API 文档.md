@@ -31,7 +31,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestingRestdocsApplication {
 
 	public static void main(String[] args) {
-		//表明要用到这个Restdocs
+		// 表明要用到这个Restdocs
 		SpringApplication.run(TestingRestdocsApplication.class, args);
 	}
 }
