@@ -1,3 +1,5 @@
+**服务发现**
+
 配置依赖
 首先是服务发现，这里我们采用 Eureka
 ```java
@@ -116,6 +118,7 @@ spring:
 ```
 
 最后启动类允许消息提供
+*目前EnableEurekaClient已经被弃用，请换到EnableDiscoveryClient使用（血的教训）*
 ```java
 @SpringBootApplication
 @EnableEurekaClient
