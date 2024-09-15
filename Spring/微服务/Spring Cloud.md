@@ -11,3 +11,11 @@
 Spring Cloud是微服务架构思想的一个具体实现，它为开发人员提供了快速构建分布式系统中一些常见模式的工具（例如配置管理、服务发、断路器，智能路由、微代理、控制总线等）。
 
 Spring Cloud 基于 Spring Boot 框架，它不重复造轮子，而是将第三方实现的微服务应用的一些模块集成进去。准确的说，Spring Cloud 是一个容器。
+
+#### SpringCloud大家族
+SpringCloud通过多个组件，分别完成对应的任务
+![](https://i-blog.csdnimg.cn/blog_migrate/293c3b3ac67500f527373e381e57b356.png#pic_center)
+服务发现：[[Eureka]]、[[naco]]
+服务发布：[[Feign]]
+熔断器：[[Hystrix]]
+网关，负载均衡：[[Gateway]]、[[Zuul]]

@@ -4,7 +4,7 @@ SpringCloud 集成了 Netflix 开源的 Hystrix 组件，该组件实现了熔�
 
 在实际项目中，一个请求调用多个服务是比较常见的，如果较底层的服务发生故障将会发生连锁反应。这对于一个大型项目是灾难性的。因此，我们需要利用 Hystrix 组件，当特定的服务不可用达到一个阈值（Hystrix 默认5秒20次），将打开熔断器，即可避免发生连锁反应。
 
-配置application.yml
+配置application.yml（Feign集成）
 ```java
 eureka:
   client:
