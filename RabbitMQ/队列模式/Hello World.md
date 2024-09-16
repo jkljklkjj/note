@@ -1,4 +1,5 @@
-**%%  %%RabbitMQ** 中最简单的`Hello World`模式。也就是一个生产者、一个消费者、一个队列；生产者P发送消息到队列Q，一个消费者C接收消息
+**RabbitMQ** 中最简单的`Hello World`模式。也就是一个生产者、一个消费者、一个队列；生产者P发送消息到队列Q，一个消费者C接收消息
+![](https://i-blog.csdnimg.cn/blog_migrate/82231d0eb39e3d760d0f48f6861f494a.png)
 
 导入依赖
 ```java
@@ -115,3 +116,5 @@ public class Consumer {
     }
 }
 ```
+
+此外，这里的`hello`队列是一个非持久化队列，所以如果`rabbitmq`服务重启，该队列会消失

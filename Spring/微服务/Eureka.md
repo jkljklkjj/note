@@ -62,6 +62,7 @@ eureka:
 同时启动类要引入Eureka
 ```java
 @SpringBootApplication
+// 现在更新了，用@EnableDiscoveryClient取代
 @EnableEurekaServer
 public class Application {
  

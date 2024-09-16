@@ -19,3 +19,5 @@ SpringCloud通过多个组件，分别完成对应的任务
 服务发布：[[Feign]]
 熔断器：[[Hystrix]]
 网关，负载均衡：[[Gateway]]、[[Zuul]]
+服务配置：
+任务发布：
