@@ -1,20 +1,33 @@
 {
   "main": {
-    "id": "ee055b23ee15afd9",
+    "id": "976f781870c90aef",
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "08bcf44714cf7776",
         "type": "tabs",
         "children": [
           {
             "id": "fd838883eec9f034",
+=======
+        "id": "6935c88655df4198",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f53ce7a71894afa4",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Netty/NIO/Netty03-进阶.md",
                 "mode": "preview",
+=======
+                "file": "RabbitMQ/基本概念.md",
+                "mode": "source",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
                 "source": false
               }
             }
@@ -25,25 +38,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "af38790e9307d53b",
+    "id": "587214941085fdb7",
     "type": "split",
     "children": [
       {
-        "id": "bf8717f55c40326b",
+        "id": "1d1ab10a9b06fc57",
         "type": "tabs",
         "children": [
           {
-            "id": "9fa7610aa2c68c49",
+            "id": "94fa4223478530ff",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "ef08e2af1b17c020",
+            "id": "634d2c79e53e863b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "bef526398d102bb2",
+            "id": "603815dcd0b34758",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +85,24 @@
     "width": 300
   },
   "right": {
-    "id": "b788a0cd5612b470",
+    "id": "f4940aed71b72f68",
     "type": "split",
     "children": [
       {
-        "id": "cc0dd6582280d51c",
+        "id": "52d2fa2c909050d4",
         "type": "tabs",
         "children": [
           {
-            "id": "5f6ec6a5acf84d3c",
+            "id": "8695fb7273426a0f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +114,23 @@
             }
           },
           {
-            "id": "db27131e3b0113b9",
+            "id": "f9e1ccfafe9682ed",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "40798a5ad5848fa7",
+            "id": "0b9ce4fb33978cd5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +141,16 @@
             }
           },
           {
-            "id": "38e150e9fcd79045",
+            "id": "447dc84b2d0c554d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Netty/NIO/Netty03-进阶.md"
+=======
+                "file": "RabbitMQ/基本概念.md"
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
               }
             }
           }
@@ -146,6 +171,7 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "fd838883eec9f034",
   "lastOpenFiles": [
     "Netty/NIO/Netty02-入门.md",
@@ -197,4 +223,8 @@
     "MyBatis",
     "ZooKeeper"
   ]
+=======
+  "active": "f53ce7a71894afa4",
+  "lastOpenFiles": []
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
 }
