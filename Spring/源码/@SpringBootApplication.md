@@ -119,3 +119,77 @@ private void initialize(Object[] sources) {
         this.mainApplicationClass = deduceMainApplicationClass();
     }
 ```
+
+通过上述代码，我们分析到 SpringApplication 实例化时有以下几个步骤：
+
+1.将所有 sources 加入到全局 sources 中，目前只有一个 Application。
+
+2.判断是否为 Web 程序（javax.servlet.Servlet、org.springframework.web.context.ConfigurableWebApplicationContext 这两个类必须存在于类加载器中）。
+```java
+private static final String[] WEB_ENVIRONMENT_CLASSES = new String[]{"javax.servlet.Servlet", "org.springframework.web.context.ConfigurableWebApplicationContext"};
+private boolean deduceWebEnvironment() {
+        for (String className : WEB_ENVIRONMENT_CLASSES) {
+            if (!ClassUtils.isPresent(className, null)) {
+                return false;
+            }
+        }
+        return true;
+    }
+```
+
+3.设置应用程序初始化器 ApplicationContextInitializer，做一些初始化的工作。
+
+4.设置应用程序事件监听器 ApplicationListener。
+
+5.找出启动类，设置到 mainApplicationClass 中。
+
+在构造完这个类后，还会执行run方法
+```java
+public ConfigurableApplicationContext run(String... args) {
+        StopWatch stopWatch = new StopWatch();
+        stopWatch.start();
+        ConfigurableApplicationContext context = null;
+        FailureAnalyzers analyzers = null;
+        configureHeadlessProperty();
+        SpringApplicationRunListeners listeners = getRunListeners(args);
+        listeners.starting();
+        try {
+            ApplicationArguments applicationArguments = new DefaultApplicationArguments(
+                    args);
+            ConfigurableEnvironment environment = prepareEnvironment(listeners,
+                    applicationArguments);
+            Banner printedBanner = printBanner(environment);
+            context = createApplicationContext();
+            analyzers = new FailureAnalyzers(context);
+            prepareContext(context, environment, listeners, applicationArguments,
+                    printedBanner);
+            refreshContext(context);
+            afterRefresh(context, applicationArguments);
+            listeners.finished(context, null);
+            stopWatch.stop();
+            if (this.logStartupInfo) {
+                new StartupInfoLogger(this.mainApplicationClass)
+                        .logStarted(getApplicationLog(), stopWatch);
+            }
+            return context;
+        }
+        catch (Throwable ex) {
+            handleRunFailure(context, listeners, analyzers, ex);
+            throw new IllegalStateException(ex);
+        }
+    }
+```
+
+- 初始化 StopWatch，调用其 start 方法开始计时。
+- 调用 configureHeadlessProperty 设置系统属性 java.awt.headless，这里设置为 true，表示运行在服务器端，在没有显示器和鼠标键盘的模式下工作，模拟输入输出设备功能。
+ - 遍历 SpringApplicationRunListeners 并调用 starting 方法。
+- 创建一个 DefaultApplicationArguments 对象，它持有 args 参数，就是 main 函数传进来的参数调用 prepareEnvironment 方法。
+- 打印 banner。
+- 创建 Spring Boot 上下文。
+- 初始化 FailureAnalyzers。
+- 调用 prepareContext。
+- 调用 AbstractApplicationContext 的 refresh 方法，并注册钩子。
+- 在容器完成刷新后，依次调用注册的 Runners。
+- 调用 SpringApplicationRunListeners 的 finished 方法。
+- 启动完成并停止计时。
+- 初始化过程中出现异常时调用 handleRunFailure 进行处理，然后抛出 IllegalStateException 异常。

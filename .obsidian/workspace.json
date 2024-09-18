@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "343d893c861a8ad5",
     "type": "split",
     "children": [
@@ -9,11 +10,26 @@
         "children": [
           {
             "id": "9d552f7dfb196f2c",
+=======
+    "id": "ee055b23ee15afd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c58e0efe36af750f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ce68f4103dce7b3",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/Work Queues.md",
+=======
+                "file": "RabbitMQ/队列模式/Direct.md",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
                 "mode": "source",
                 "source": false
               }
@@ -25,6 +41,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "6a9d7b81b44086b3",
     "type": "split",
     "children": [
@@ -34,16 +51,31 @@
         "children": [
           {
             "id": "c6c27697615f7f6b",
+=======
+    "id": "af38790e9307d53b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf8717f55c40326b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fa7610aa2c68c49",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "e428a96a084d3f72",
+=======
+            "id": "ef08e2af1b17c020",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +90,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "cc48977d7f9a028e",
+=======
+            "id": "bef526398d102bb2",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,6 +108,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "690aaa1ec2b9f7c7",
     "type": "split",
     "children": [
@@ -81,11 +118,26 @@
         "children": [
           {
             "id": "6540b7e48f84b683",
+=======
+    "id": "b788a0cd5612b470",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc0dd6582280d51c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f6ec6a5acf84d3c",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/Work Queues.md",
+=======
+                "file": "RabbitMQ/队列模式/Direct.md",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +149,31 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "ac7e66765a7d70fe",
+=======
+            "id": "db27131e3b0113b9",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/Work Queues.md",
+=======
+                "file": "RabbitMQ/队列模式/Direct.md",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "b2bba62f1fdc8621",
+=======
+            "id": "40798a5ad5848fa7",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +184,20 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "52f2527a1fb118eb",
+=======
+            "id": "38e150e9fcd79045",
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/Work Queues.md"
+=======
+                "file": "RabbitMQ/队列模式/Direct.md"
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
               }
             }
           }
@@ -146,6 +218,7 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "9d552f7dfb196f2c",
   "lastOpenFiles": [
     "RabbitMQ/Hello World.md",
@@ -155,5 +228,55 @@
     "RabbitMQ/基本概念.md",
     "RabbitMQ/常用MQ.md",
     "RabbitMQ/入门.md"
+=======
+  "active": "0ce68f4103dce7b3",
+  "lastOpenFiles": [
+    "RabbitMQ/队列模式/Fanout.md",
+    "RabbitMQ/队列模式/Exchanges.md",
+    "RabbitMQ/队列模式/Hello World.md",
+    "RabbitMQ/入门.md",
+    "RabbitMQ/队列模式/Topics.md",
+    "RabbitMQ/队列模式/Direct.md",
+    "MyBatis/入门.md",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/常用MQ.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/队列模式/Work Queues.md",
+    "RabbitMQ/队列模式",
+    "RabbitMQ/持久化.md",
+    "Spring/基本/异常处理.md",
+    "Spring/基本/注解.md",
+    "Spring/基本/注入.md",
+    "Spring/基本/拦截器.md",
+    "Spring/微服务/Spring Cloud.md",
+    "Spring/微服务/Eureka.md",
+    "Spring/源码/@SpringBootApplication.md",
+    "Spring/基本/接口版本控制.md",
+    "Spring/实例/添加代码.md",
+    "Netty/NIO/Netty02-入门.md",
+    "Netty/NIO/Netty01-nio.md",
+    "Netty/NIO/Netty03-进阶.md",
+    "Spring/微服务/Gateway.md",
+    "Spring/微服务/Feign.md",
+    "Docker/命令",
+    "Docker",
+    "Netty/NIO/img/0051.png",
+    "Netty/NIO/img/0047.png",
+    "Netty/NIO/img/0046.png",
+    "Netty/NIO/img/0002.png",
+    "Netty/NIO/img/0008.png",
+    "Netty/NIO/img/0021.png",
+    "Netty/NIO/img/0025.png",
+    "Netty/NIO/img/0041.png",
+    "Netty/NIO/img/0044.png",
+    "Netty/NIO/img/0050.png",
+    "Netty/NIO/img",
+    "Netty/NIO",
+    "Netty/未命名",
+    "Netty",
+    "MyBatis",
+    "ZooKeeper",
+    "Spring/Web"
+>>>>>>> 76b8980f801e3c4080428adf69f2c6bdfe89d2c4
   ]
 }
