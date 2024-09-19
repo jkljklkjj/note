@@ -4,17 +4,34 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
+        "id": "08bcf44714cf7776",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd838883eec9f034",
+=======
         "id": "6935c88655df4198",
         "type": "tabs",
         "children": [
           {
             "id": "f53ce7a71894afa4",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+                "mode": "preview",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
                 "mode": "source",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
                 "source": false
               }
             }
@@ -85,7 +102,15 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +158,15 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "RabbitMQ/消息队列协议.md"
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md"
+=======
+                "file": "RabbitMQ/基本概念.md"
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
               }
             }
           }
@@ -146,7 +187,61 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
+  "active": "fd838883eec9f034",
+  "lastOpenFiles": [
+    "Netty/NIO/Netty02-入门.md",
+    "Netty/NIO/Netty01-nio.md",
+    "Docker/Dockerfile.md",
+    "Docker/容器数据卷.md",
+    "Docker/镜像.md",
+    "RabbitMQ/机制/消息应答.md",
+    "RabbitMQ/机制/持久化.md",
+    "RabbitMQ/机制/预取值.md",
+    "RabbitMQ/机制/死信队列.md",
+    "RabbitMQ/机制/发布确认.md",
+    "RabbitMQ/机制/不公平分发.md",
+    "RabbitMQ/入门.md",
+    "Redis/集合.md",
+    "Pasted image 20240917144053.png",
+    "Pasted image 20240917143538.png",
+    "Pasted image 20240917145109.png",
+    "Pasted image 20240917150152.png",
+    "Pasted image 20240917153025.png",
+    "Pasted image 20240917165543.png",
+    "Pasted image 20240917172200.png",
+    "Pasted image 20240917175637.png",
+    "Docker/Docker GUI.md",
+    "Pasted image 20240917165529.png",
+    "Docker/命令/其它.md",
+    "Docker/入门.md",
+    "Docker/底层原理.md",
+    "Pasted image 20240917151526.png",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/常用MQ.md",
+    "Redis/未命名.canvas",
+    "未命名.canvas",
+    "RabbitMQ/机制",
+    "RabbitMQ/队列模式/Topics.md",
+    "Netty/客户端.md",
+    "MyBatis/入门.md",
+    "Java/案例/Websocket实现答题pk.md",
+    "Java/网络编程.md",
+    "Java/注解.md",
+    "RabbitMQ/队列模式",
+    "Docker/命令",
+    "Docker",
+    "Netty/NIO/img",
+    "Netty/NIO",
+    "Netty/未命名",
+    "Netty",
+    "MyBatis",
+    "ZooKeeper"
+  ]
+=======
   "active": "f53ce7a71894afa4",
+<<<<<<< HEAD
   "lastOpenFiles": [
     "RabbitMQ/入门.md",
     "RabbitMQ/基本概念.md",
@@ -173,4 +268,8 @@
     "redis/列表.md",
     "redis/集合.md"
   ]
+=======
+  "lastOpenFiles": []
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
 }
