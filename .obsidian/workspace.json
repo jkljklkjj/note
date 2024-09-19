@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RabbitMQ/基本概念.md",
+                "file": "RabbitMQ/消息队列协议.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RabbitMQ/基本概念.md",
+                "file": "RabbitMQ/消息队列协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RabbitMQ/基本概念.md",
+                "file": "RabbitMQ/消息队列协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RabbitMQ/基本概念.md"
+                "file": "RabbitMQ/消息队列协议.md"
               }
             }
           }
@@ -147,5 +147,30 @@
     }
   },
   "active": "f53ce7a71894afa4",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "RabbitMQ/入门.md",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/持久化.md",
+    "MyBatis/Hello World.md",
+    "MyBatis/入门.md",
+    "Spring/IO/使用Spring缓存数据.md",
+    "Spring/IO/文件上传.md",
+    "Spring/IO/调度任务.md",
+    "Spring/Web/使用 SOAP Web 服务.md",
+    "Spring/Restful/使用Restful Web服务.md",
+    "Spring/Restful/使用 REST 访问 Neo4j 数据.md",
+    "Spring/Restful/构建超媒体驱动的 RESTful Web 服务.md",
+    "Spring/Restful/构建 RESTful Web 服务.md",
+    "Spring/消息/Spring Cloud流.md",
+    "Spring/消息/Spring Cloud 数据流.md",
+    "ZooKeeper/入门.md",
+    "readme.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/常用MQ.md",
+    "redis/散列.md",
+    "redis/有序集合.md",
+    "redis/字符串.md",
+    "redis/列表.md",
+    "redis/集合.md"
+  ]
 }
