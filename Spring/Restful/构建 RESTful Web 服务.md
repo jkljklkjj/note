@@ -15,7 +15,7 @@ public class GreetingController {
 	// 要求传入参数的形式，并设定了一个默认值
 	@GetMapping("/greeting") 
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-	//返回一个对象，对象的所有成员变量名作为键，值为值
+	// 返回一个对象，对象的所有成员变量名作为键，值为值
 	return new Greeting(counter.incrementAndGet(), String.format(template, name)); 
 	}
 }
