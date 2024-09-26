@@ -1,19 +1,43 @@
 {
   "main": {
-    "id": "976f781870c90aef",
+    "id": "e9d42ffcb225e29a",
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "6935c88655df4198",
         "type": "tabs",
         "children": [
           {
             "id": "f53ce7a71894afa4",
+=======
+        "id": "0d95c0d7b23f179f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e9528c89a487951",
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "MyBatis/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+                "mode": "preview",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
+>>>>>>> f46f89be13e8c4258eac0ab8c3b1e36bd54fd935
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +49,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "587214941085fdb7",
+    "id": "f720009efa4cc6e3",
     "type": "split",
     "children": [
       {
-        "id": "1d1ab10a9b06fc57",
+        "id": "b0d9c366bef42c69",
         "type": "tabs",
         "children": [
           {
-            "id": "94fa4223478530ff",
+            "id": "991a32bcf5c18a1a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +67,7 @@
             }
           },
           {
-            "id": "634d2c79e53e863b",
+            "id": "dd05e3c0d9da58b1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +82,7 @@
             }
           },
           {
-            "id": "603815dcd0b34758",
+            "id": "3f6b17e8c6cee1ec",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +96,36 @@
     "width": 300
   },
   "right": {
-    "id": "f4940aed71b72f68",
+    "id": "dcd4224f418b2f8d",
     "type": "split",
     "children": [
       {
-        "id": "52d2fa2c909050d4",
+        "id": "333756d43d404b83",
         "type": "tabs",
         "children": [
           {
-            "id": "8695fb7273426a0f",
+            "id": "b255dfbeb2fb73b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "MyBatis/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
+>>>>>>> f46f89be13e8c4258eac0ab8c3b1e36bd54fd935
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +137,35 @@
             }
           },
           {
-            "id": "f9e1ccfafe9682ed",
+            "id": "f88e01bc919f8ec2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "MyBatis/入门.md",
+=======
+<<<<<<< HEAD
+                "file": "RabbitMQ/消息队列协议.md",
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md",
+=======
+                "file": "RabbitMQ/基本概念.md",
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
+>>>>>>> f46f89be13e8c4258eac0ab8c3b1e36bd54fd935
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0b9ce4fb33978cd5",
+            "id": "27f86a9fb74c6b68",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +176,28 @@
             }
           },
           {
-            "id": "447dc84b2d0c554d",
+            "id": "f1f96a65cdbeb9d1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/入门.md"
+=======
+<<<<<<< HEAD
+                "file": "MyBatis/入门.md"
+=======
+<<<<<<< HEAD
+                "file": "RabbitMQ/消息队列协议.md"
+=======
+<<<<<<< HEAD
+                "file": "Netty/NIO/Netty03-进阶.md"
+=======
+                "file": "RabbitMQ/基本概念.md"
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
+>>>>>>> f46f89be13e8c4258eac0ab8c3b1e36bd54fd935
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
               }
             }
           }
@@ -146,6 +218,7 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "f53ce7a71894afa4",
   "lastOpenFiles": [
     "Spring/微服务/Gateway.md",
@@ -176,4 +249,47 @@
     "Spring/微服务/Hystrix.md",
     "RabbitMQ/机制"
   ]
+=======
+  "active": "1e9528c89a487951",
+  "lastOpenFiles": [
+    "MyBatis/增删改查.md",
+    "MyBatis/入门.md"
+  ]
+<<<<<<< HEAD
+=======
+=======
+  "active": "f53ce7a71894afa4",
+<<<<<<< HEAD
+  "lastOpenFiles": [
+    "RabbitMQ/入门.md",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/持久化.md",
+    "MyBatis/Hello World.md",
+    "MyBatis/入门.md",
+    "Spring/IO/使用Spring缓存数据.md",
+    "Spring/IO/文件上传.md",
+    "Spring/IO/调度任务.md",
+    "Spring/Web/使用 SOAP Web 服务.md",
+    "Spring/Restful/使用Restful Web服务.md",
+    "Spring/Restful/使用 REST 访问 Neo4j 数据.md",
+    "Spring/Restful/构建超媒体驱动的 RESTful Web 服务.md",
+    "Spring/Restful/构建 RESTful Web 服务.md",
+    "Spring/消息/Spring Cloud流.md",
+    "Spring/消息/Spring Cloud 数据流.md",
+    "ZooKeeper/入门.md",
+    "readme.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/常用MQ.md",
+    "redis/散列.md",
+    "redis/有序集合.md",
+    "redis/字符串.md",
+    "redis/列表.md",
+    "redis/集合.md"
+  ]
+=======
+  "lastOpenFiles": []
+>>>>>>> 4841485569e3367d7679cb55eee64b5c490d3508
+>>>>>>> 9e5d9b8b19b23b58aad6369421dbdc5eb2a90095
+>>>>>>> f46f89be13e8c4258eac0ab8c3b1e36bd54fd935
+>>>>>>> 6168045a117126688064300d3aa0ab8931d008a9
 }
