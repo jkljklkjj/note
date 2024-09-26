@@ -6,7 +6,7 @@
 - name-processor：使用 name-source 发布的 String 并以某种方式转换数据。将结果发布到其他交易所。在此示例中，使用名称 String 创建记录并添加时间戳。
 - name-sink：使用 name-processor 的结果并执行操作。在这种情况下，将结果打印到 standard out。
 
-使用这个流的方法是安装RabbitMQ[[RabbitMQ/入门|入门]]，具体方式不再赘述
+使用这个流的方法是安装[[RabbitMQ/入门|RabbitMQ]]，具体方式不再赘述
 
 我们定义一个Sink应用程序
 ```java

@@ -1,3 +1,4 @@
+[官方文档](https://springdoc.cn/spring-cloud-gateway/#google_vignette)
 和[[Euul]]差不多，是原生SpringCloud
 
 这里解释如何进行配置
