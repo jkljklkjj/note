@@ -3,6 +3,7 @@
 *在这里作者发现了一个非常巨大的坑
 Idea的maven工具，很多时候并没有自己的判断
 所以最好使用mvn clean install命令来使用maven
+同时要查询对应Springboot版本的版本
 
 *同时，2020年后的Springboot不再支持Zuul
 请用Gateway来取代这门技术
