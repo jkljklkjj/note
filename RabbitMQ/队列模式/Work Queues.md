@@ -24,6 +24,7 @@ public class Producer {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             String message = scanner.next();
+            // 这里实现工作队列
             channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
             System.out.println("消息发送完毕" + message);
         }
