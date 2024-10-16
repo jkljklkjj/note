@@ -1,26 +1,18 @@
 {
   "main": {
-    "id": "976f781870c90aef",
+    "id": "bc2d766ed11c761f",
     "type": "split",
     "children": [
       {
-        "id": "6935c88655df4198",
+        "id": "1e629ed1fbc05fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "f53ce7a71894afa4",
+            "id": "e3ff09c0a5a44afd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Spring/微服务/Spring Security.md",
-=======
-                "file": "Spring/入门.md",
->>>>>>> 49554213b6fd42cf4916f59ee6a5a10d15b62c6b
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -29,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "587214941085fdb7",
+    "id": "76ea386f54bf129d",
     "type": "split",
     "children": [
       {
-        "id": "1d1ab10a9b06fc57",
+        "id": "840379afe7f52f7d",
         "type": "tabs",
         "children": [
           {
-            "id": "94fa4223478530ff",
+            "id": "b9c93bbcafc94ea6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +39,7 @@
             }
           },
           {
-            "id": "634d2c79e53e863b",
+            "id": "d978d485ff8198e1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,7 +54,7 @@
             }
           },
           {
-            "id": "603815dcd0b34758",
+            "id": "3b0c8321c657a007",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,24 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "f4940aed71b72f68",
+    "id": "25d623ed1adc8a24",
     "type": "split",
     "children": [
       {
-        "id": "52d2fa2c909050d4",
+        "id": "49bc6735093b8876",
         "type": "tabs",
         "children": [
           {
-            "id": "8695fb7273426a0f",
+            "id": "eea04f24412b5997",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Spring/微服务/Spring Security.md",
-=======
-                "file": "Spring/入门.md",
->>>>>>> 49554213b6fd42cf4916f59ee6a5a10d15b62c6b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,23 +92,18 @@
             }
           },
           {
-            "id": "f9e1ccfafe9682ed",
+            "id": "62bb229ec51747f2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Spring/微服务/Spring Security.md",
-=======
-                "file": "Spring/入门.md",
->>>>>>> 49554213b6fd42cf4916f59ee6a5a10d15b62c6b
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0b9ce4fb33978cd5",
+            "id": "61e44fb1e6936601",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,17 +114,11 @@
             }
           },
           {
-            "id": "447dc84b2d0c554d",
+            "id": "2107f9d783b9a301",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "Spring/微服务/Spring Security.md"
-=======
-                "file": "Spring/入门.md"
->>>>>>> 49554213b6fd42cf4916f59ee6a5a10d15b62c6b
-              }
+              "state": {}
             }
           }
         ]
@@ -162,69 +138,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f53ce7a71894afa4",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Spring/微服务/Spring Cloud.md",
-    "Task/算法.md",
-    "ZooKeeper/入门.md",
-    "Spring/入门.md",
-    "readme.md",
-    "Spring/微服务/Spring Security.md",
-    "SpringSecurity的原理.md",
-    "Spring/微服务/Hystrix.md",
-    "Spring/微服务/Eureka.md",
-    "Spring/微服务/Feign.md",
-    "Spring/微服务/Gateway.md",
-    "Spring/微服务/Zuul.md",
-    "Spring/基本/拦截器.md",
-    "Java/流/入门.md",
-    "Java/流/改流.md",
-    "Java/未命名.md",
-    "Java/HTTP.md",
-    "Java/注解.md",
-    "Java/网络编程.md",
-    "Java/反射.md",
-    "Task",
-    "Docker/底层原理.md",
-    "MyBatis/入门.md",
-    "MyBatis/增删改查.md",
-    "MyBatis/Hello World.md",
-    "图灵课堂赠/07微服务篇.MD",
-    "黑马程序员赠",
-    "新建文件夹",
-    "图灵课堂赠/04JVM调优篇.MD",
-    "图灵课堂赠/1615876110423.png",
-    "图灵课堂赠/1615283748011.png",
-    "图灵课堂赠/1615192248858.png"
-=======
-    "MyBatis/增删改查.md",
-    "Spring/微服务/Gateway.md",
-    "Netty/NIO/Netty02-入门.md",
-    "Netty/NIO/Netty01-nio.md",
-    "Netty/服务端.md",
-    "RabbitMQ/队列模式/Work Queues.md",
-    "RabbitMQ/队列模式/Topics.md",
-    "RabbitMQ/队列模式/Hello World.md",
-    "RabbitMQ/机制/死信队列.md",
-    "RabbitMQ/机制/发布确认.md",
-    "RabbitMQ/机制/延迟队列.md",
-    "RabbitMQ/入门.md",
-    "RabbitMQ/基本概念.md",
-    "RabbitMQ/常用MQ.md",
-    "RabbitMQ/机制/消息应答.md",
-    "RabbitMQ/队列模式/Exchanges.md",
-    "RabbitMQ/机制/预取值.md",
-    "RabbitMQ/机制/持久化.md",
-    "RabbitMQ/机制/不公平分发.md",
-    "Spring/基本/异常处理.md",
-    "Spring/基本/拦截器.md",
-    "Spring/基本/接口版本控制.md",
-    "Spring/实例/添加代码.md",
-    "Spring/数据访问/使用 MySQL 访问数据.md",
-    "Spring/微服务/Zuul.md",
-    "Spring/微服务/Spring Cloud.md",
-    "RabbitMQ/机制"
->>>>>>> 49554213b6fd42cf4916f59ee6a5a10d15b62c6b
-  ]
+  "active": "b9c93bbcafc94ea6",
+  "lastOpenFiles": []
 }
