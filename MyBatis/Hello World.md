@@ -1,19 +1,19 @@
 首先创建一个用于测试的数据库脚本
 ```sql
 CREATE DATABASE `mybatis`;
-
 USE `mybatis`;
+CREATE DATABASE `mybatis`;
 
-DROP TABLE IF EXISTS `user`;
-
-CREATE TABLE `user` (
-`id` int(20) NOT NULL,
-`name` varchar(30) DEFAULT NULL,
-`pwd` varchar(30) DEFAULT NULL,
-PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-insert  into `user`(`id`,`name`,`pwd`) values (1,'阿渌','123456'),(2,'张三','abcdef'),(3,'李四','987654');
+CREATE TABLE `user`(
+	`id` INT(20) NOT NULL,
+	`name` VARCHAR(30) DEFAULT NULL,
+	`pwd` VARCHAR(30) DEFAULT NULL,
+	PRIMARY KEY(`id`)
+)ENGINE=INNODB DEFAULT CHARSET=utf8;
+INSERT INTO `user`(`id`,`name`,`pwd`) VALUES
+(1,'狂神','123456'),
+(2,'张三','abcdef'),
+(3,'李四','987654');
 ```
 
 引入依赖
@@ -187,9 +187,9 @@ public interface UserDao {
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!--namespace=绑定一个对应的Dao/Mapper接口-->
+<!--namespace=绑定一个对应的Dao/Mapper接口（java类）-->
 <mapper namespace="com.daimalu.dao.UserDao">
-    <!--select查询语句-->
+    <!--select查询语句，重写对应函数-->
     <select id="getUserList" resultType="com.daimalu.pojo.User">
         select * from mybatis.user
     </select>
@@ -255,3 +255,11 @@ public class UserDaoTest {
     }
 }
 ```
+
+排错思路：
+
+1. mybatis配置文件没有注册
+2. 绑定接口错误
+3. 方法名错误
+4. 返回类型错误
+5. maven导出资源更新

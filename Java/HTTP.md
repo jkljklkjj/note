@@ -18,12 +18,11 @@ public class SimpleHttpServer {
         } catch (IOException e) {  
             e.printStackTrace();  
         }  
-    }  
+    } 
   
     private static void handleRequest(Socket clientSocket) {  
-        try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
+        try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {  
-  
             // 读取请求头  
             String inputLine = in.readLine();  
             if (inputLine != null && inputLine.startsWith("GET")) {  
@@ -52,6 +51,6 @@ public class SimpleHttpServer {
                 e.printStackTrace();  
             }  
         }  
-    }  
+    }
 }
 ```
