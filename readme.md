@@ -36,6 +36,9 @@ git push origin main
 
 正则匹配html图片
 
+```html
 <img src="([^"]+)" alt="([^"]*)">
+![]($1)
+```
 
 正则匹配代码块
