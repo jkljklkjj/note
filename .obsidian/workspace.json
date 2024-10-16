@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyBatis/入门.md",
+                "file": "MyBatis/配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MyBatis/入门.md",
+                "file": "MyBatis/配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MyBatis/入门.md",
+                "file": "MyBatis/配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyBatis/入门.md"
+                "file": "MyBatis/配置.md"
               }
             }
           }
@@ -148,7 +148,14 @@
   },
   "active": "f53ce7a71894afa4",
   "lastOpenFiles": [
+    "MyBatis/分页.md",
+    "MyBatis/日志.md",
+    "MyBatis/别名.md",
+    "MyBatis/配置.md",
+    "MyBatis/生命周期和作用域.md",
     "MyBatis/增删改查.md",
+    "MyBatis/Hello World.md",
+    "MyBatis/入门.md",
     "readme.md",
     "Spring/实例/demo/target/classes/application.properties",
     "Spring/实例/demo/target/classes/com/example/restservice/User.class",
@@ -186,13 +193,6 @@
     "图灵课堂赠/1616489638302.png",
     "图灵课堂赠/1615876110423.png",
     "图灵课堂赠/1616059245774.png",
-    "图灵课堂赠/1616059245774-1616138649126.png",
-    "图灵课堂赠/12结束词-马到成功学习之外的面试经验.MD",
-    "图灵课堂赠/11安全验证篇.MD",
-    "图灵课堂赠/10搜索引擎篇.MD",
-    "图灵课堂赠/09MySQL数据库篇.MD",
-    "图灵课堂赠/08Spring底层篇.MD",
-    "图灵课堂赠/07微服务篇.MD",
-    "图灵课堂赠/06缓存篇.MD"
+    "图灵课堂赠/1616059245774-1616138649126.png"
   ]
 }
