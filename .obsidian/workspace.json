@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "Kafka/Producer.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "Kafka/Producer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "Kafka/Producer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyBatis/动态SQL.md"
+                "file": "Kafka/Producer.md"
               }
             }
           }
@@ -148,17 +149,32 @@
   },
   "active": "e3ff09c0a5a44afd",
   "lastOpenFiles": [
-    "MyBatis/日志.md",
-    "MyBatis/配置.md",
+    "Kafka/配置.md",
+    "Kafka/Producer.md",
+    "Kafka/基本知识.md",
+    "Kafka/入门.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/基本概念.md",
+    "MyBatis/缓存.md",
     "MyBatis/动态SQL.md",
-    "MyBatis/关联.md",
-    "MyBatis/生命周期和作用域.md",
     "MyBatis/入门.md",
     "MyBatis/分页.md",
     "MyBatis/别名.md",
-    "MyBatis/增删改查.md",
-    "MyBatis/Hello World.md",
-    "ZooKeeper/Zookeeper 教程（超详细）.md",
-    "Euul.md"
+    "Redis/进阶/过期.md",
+    "Redis/进阶/管道.md",
+    "Redis/进阶/持久化.md",
+    "Redis/运维/哨兵.md",
+    "Redis/运维/集群.md",
+    "Redis/散列.md",
+    "Redis/入门.md",
+    "Redis/字符串.md",
+    "Redis/集合.md",
+    "ZooKeeper/入门.md",
+    "Spring/入门.md",
+    "Euul.md",
+    "Task/算法.md",
+    "Kafka",
+    "MyBatis/配置.md",
+    "MyBatis/关联.md"
   ]
 }

@@ -220,7 +220,6 @@ vim /etc/profile
 #ZOOKEEPER
 export ZOOKEEPER_HOME=/hadoop/zookeeper-3.5.6
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
-
 ```
 
     ③ 同步配置文件
