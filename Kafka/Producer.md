@@ -35,7 +35,7 @@ Serializer 是一个接口，它表示类将会采用何种方式序列化，它
 
 与 key.serializer 一样，value.serializer 指定的类会将值序列化。
 
-下面代码演示了如何创建一个 Kafka 生产者，这里只指定了必要的属性，其他使用默认的配置
+下面代码演示了如何创建一个 Kafka 生产者，这里只指定了必要的属性，其他使用默认的
 ```java
 private Properties properties = new Properties();
 properties.put("bootstrap.servers","broker1:9092,broker2:9092");
@@ -48,3 +48,32 @@ properties = new KafkaProducer<String,String>(properties);
 - 在这里我们创建了一个新的生产者对象，并为键值设置了恰当的类型，然后把 Properties 对象传递给他。
 
 #### 消息发送
+##### 简单发送
+```java
+ProducerRecord<String,String> record = new ProducerRecord<String, String>("CustomerCountry","West","France"); 
+producer.send(record);
+```
+
+生产者(producer)的 `send()` 方法需要把 `ProducerRecord` 的对象作为参数进行发送，ProducerRecord 有很多构造函数，这个我们下面讨论，这里调用的是
+```java
+public ProducerRecord(String topic, K key, V value) {}
+```
+
+这个构造函数，需要传递的是 topic主题，key 和 value
+
+把对应的参数传递完成后，生产者调用 send() 方法发送消息（ProducerRecord对象）。我们可以从生产者的架构图中看出，消息是先被写入分区中的缓冲区中，然后分批次发送给 Kafka Broker。
+![](https://ask.qcloudimg.com/http-save/5418473/8raqt7ch9b.png?imageView2/2/w/784)
+
+发送成功后，send() 方法会返回一个 `Future(java.util.concurrent)` 对象，Future 对象的类型是 `RecordMetadata`类型，我们上面这段代码没有考虑返回值，所以没有生成对应的 Future 对象，所以没有办法知道消息是否发送成功。如果不是很重要的信息或者对结果不会产生影响的信息，可以使用这种方式进行发送。
+
+我们可以忽略发送消息时可能发生的错误或者在服务器端可能发生的错误，但在消息发送之前，生产者还可能发生其他的异常。这些异常有可能是 `SerializationException(序列化失败)`，`BufferedExhaustedException 或 TimeoutException(说明缓冲区已满)`，又或是 `InterruptedException(说明发送线程被中断)`
+
+##### 同步发送
+```java
+ProducerRecord<String,String> record = new ProducerRecord<String, String>("CustomerCountry","West","France"); 
+try{ 
+	RecordMetadata recordMetadata = producer.send(record).get();
+} catch(Exception e) {
+	e.printStackTrace();
+	}
+```
