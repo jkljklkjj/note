@@ -192,3 +192,40 @@ xml
     </where>
 </select>
 ```
+
+#### foreach
+接口
+```java
+//查询第1，2，3号的记录
+List<Blog> queryBlogForeach(Map map);
+```
+
+mapper
+```sql
+<select id="selectPostIn" resultType="domain.blog.Post">
+  SELECT *
+  FROM POST P
+  <where>
+    <foreach item="item" index="index" collection="list"
+        open="ID in (" separator="," close=")" nullable="true">
+          #{item}
+    </foreach>
+  </where>
+</select>
+```
+
+foreach 元素的功能非常强大，它允许指定一个集合，声明可以在元素体内使用的集合项（item）和索引（index）变量。也允许指定开头与结尾的字符串以及集合项迭代之间的分隔符。这个元素也不会错误地添加多余的分隔符。
+
+可以将任何可迭代对象（如 List、Set 等）、Map 对象或者数组对象作为集合参数传递给 foreach。当使用可迭代对象或者数组时，index 是当前迭代的序号，item 的值是本次迭代获取到的元素。当使用 Map 对象（或者 Map.Entry 对象的集合）时，index 是键，item 是值。
+
+```sql
+<select id="queryBlogForeach" resultType="Blog" parameterType="map">
+    select * from blog
+        <where>
+            <foreach collection="ids" item="id" 
+                open="and (" close=")" separator="or">
+                id =#{id}
+            </foreach>
+        </where>
+</select>
+```
