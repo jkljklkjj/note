@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "RabbitMQ/常用MQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "RabbitMQ/常用MQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MyBatis/动态SQL.md",
+                "file": "RabbitMQ/常用MQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyBatis/动态SQL.md"
+                "file": "RabbitMQ/常用MQ.md"
               }
             }
           }
@@ -148,17 +148,32 @@
   },
   "active": "e3ff09c0a5a44afd",
   "lastOpenFiles": [
-    "MyBatis/日志.md",
-    "MyBatis/配置.md",
-    "MyBatis/动态SQL.md",
-    "MyBatis/关联.md",
-    "MyBatis/生命周期和作用域.md",
-    "MyBatis/入门.md",
-    "MyBatis/分页.md",
-    "MyBatis/别名.md",
-    "MyBatis/增删改查.md",
-    "MyBatis/Hello World.md",
+    "RabbitMQ/入门.md",
+    "RabbitMQ/机制/预取值.md",
+    "RabbitMQ/机制/延迟队列.md",
+    "RabbitMQ/机制/消息应答.md",
+    "RabbitMQ/机制/不公平分发.md",
+    "RabbitMQ/机制/发布确认.md",
+    "RabbitMQ/机制/持久化.md",
+    "RabbitMQ/常用MQ.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/基本概念.md",
+    "Redis/列表.md",
+    "Redis/集合.md",
+    "Spring/基本/注入.md",
+    "Spring/基本/注解.md",
+    "Spring/基本/拦截器.md",
+    "Spring/基本/接口版本控制.md",
+    "Spring/微服务/入门.md",
+    "Spring/微服务/Hystrix.md",
+    "Spring/微服务/Gateway.md",
+    "Spring/微服务/Feign.md",
+    "Spring/微服务/Eureka.md",
+    "Spring/微服务/Zuul.md",
+    "Spring/微服务/Spring Security.md",
     "ZooKeeper/Zookeeper 教程（超详细）.md",
-    "Euul.md"
+    "ZooKeeper/入门.md",
+    "Spring/Web/使用 SOAP Web 服务.md",
+    "Task/日记"
   ]
 }
