@@ -13,8 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "其它/作者的大学经验.md",
                 "mode": "source",
+=======
+                "file": "Docker/底层原理.md",
+                "mode": "source",
+                "backlinks": false,
+>>>>>>> 299b3704a13e2a2da4bbf7bb3f9fb94a9a4fa3c6
                 "source": false
               }
             }
@@ -85,7 +91,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "其它/作者的大学经验.md",
+=======
+                "file": "Docker/底层原理.md",
+>>>>>>> 299b3704a13e2a2da4bbf7bb3f9fb94a9a4fa3c6
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "其它/作者的大学经验.md",
+=======
+                "file": "Docker/底层原理.md",
+>>>>>>> 299b3704a13e2a2da4bbf7bb3f9fb94a9a4fa3c6
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "其它/作者的大学经验.md"
+=======
+                "file": "Docker/底层原理.md"
+>>>>>>> 299b3704a13e2a2da4bbf7bb3f9fb94a9a4fa3c6
               }
             }
           }
@@ -148,6 +166,7 @@
   },
   "active": "e3ff09c0a5a44afd",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "RabbitMQ/常用MQ.md",
     "其它/作者的大学经验.md",
     "其它/网站推荐.md",
@@ -178,5 +197,38 @@
     "Spring/微服务/入门.md",
     "Spring/微服务/Hystrix.md",
     "Task/日记"
+=======
+    "Docker/容器数据卷.md",
+    "Docker/镜像.md",
+    "Docker/底层原理.md",
+    "Docker/入门.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker GUI.md",
+    "Kafka/入门.md",
+    "Task/日记/20241017.md",
+    "Task/日记",
+    "Spring/微服务/入门.md",
+    "Kafka/Consumer.md",
+    "Kafka/Producer.md",
+    "Mysql/入门.md",
+    "Redis/进阶/管道.md",
+    "Redis/进阶/持久化.md",
+    "Redis/进阶/过期.md",
+    "Java/网络编程.md",
+    "Kafka/配置.md",
+    "Kafka/基本知识.md",
+    "其它/网站推荐.md",
+    "其它/未命名",
+    "其它",
+    "Redis/运维/哨兵.md",
+    "Mysql",
+    "Redis/运维/集群.md",
+    "Redis/进阶/消息.md",
+    "Redis/进阶/事务.md",
+    "Redis/进阶/节省空间.md",
+    "RabbitMQ/消息队列协议.md",
+    "RabbitMQ/基本概念.md",
+    "Kafka"
+>>>>>>> 299b3704a13e2a2da4bbf7bb3f9fb94a9a4fa3c6
   ]
 }
