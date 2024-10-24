@@ -13,31 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "RabbitMQ/常用MQ.md",
-=======
-                "file": "Mysql/入门.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8a22d8ca026f12d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kafka/Producer.md",
->>>>>>> 9466534049af4508d344bc0672acac1a374dd569
+                "file": "其它/作者的大学经验.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "RabbitMQ/常用MQ.md",
-=======
-                "file": "Kafka/Producer.md",
->>>>>>> 9466534049af4508d344bc0672acac1a374dd569
+                "file": "其它/作者的大学经验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,11 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "RabbitMQ/常用MQ.md",
-=======
-                "file": "Kafka/Producer.md",
->>>>>>> 9466534049af4508d344bc0672acac1a374dd569
+                "file": "其它/作者的大学经验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,11 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "RabbitMQ/常用MQ.md"
-=======
-                "file": "Kafka/Producer.md"
->>>>>>> 9466534049af4508d344bc0672acac1a374dd569
+                "file": "其它/作者的大学经验.md"
               }
             }
           }
@@ -176,9 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c8a22d8ca026f12d",
+  "active": "e3ff09c0a5a44afd",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "RabbitMQ/常用MQ.md",
+    "其它/作者的大学经验.md",
+    "其它/网站推荐.md",
+    "其它",
+    "Mysql/入门.md",
+    "Mysql",
+    "MyBatis/缓存.md",
+    "Kafka/配置.md",
+    "Kafka/基本知识.md",
+    "Kafka/入门.md",
+    "Kafka/Producer.md",
+    "Kafka",
     "RabbitMQ/入门.md",
     "RabbitMQ/机制/预取值.md",
     "RabbitMQ/机制/延迟队列.md",
@@ -186,7 +167,6 @@
     "RabbitMQ/机制/不公平分发.md",
     "RabbitMQ/机制/发布确认.md",
     "RabbitMQ/机制/持久化.md",
-    "RabbitMQ/常用MQ.md",
     "RabbitMQ/消息队列协议.md",
     "RabbitMQ/基本概念.md",
     "Redis/列表.md",
@@ -197,46 +177,6 @@
     "Spring/基本/接口版本控制.md",
     "Spring/微服务/入门.md",
     "Spring/微服务/Hystrix.md",
-    "Spring/微服务/Gateway.md",
-    "Spring/微服务/Feign.md",
-    "Spring/微服务/Eureka.md",
-    "Spring/微服务/Zuul.md",
-    "Spring/微服务/Spring Security.md",
-    "ZooKeeper/Zookeeper 教程（超详细）.md",
-    "ZooKeeper/入门.md",
-    "Spring/Web/使用 SOAP Web 服务.md",
     "Task/日记"
-=======
-    "Mysql/入门.md",
-    "Java/网络编程.md",
-    "Kafka/Producer.md",
-    "Kafka/配置.md",
-    "Kafka/入门.md",
-    "Kafka/基本知识.md",
-    "其它/网站推荐.md",
-    "Docker/底层原理.md",
-    "其它/未命名",
-    "其它",
-    "Redis/运维/哨兵.md",
-    "Mysql",
-    "Redis/运维/集群.md",
-    "Redis/进阶/消息.md",
-    "Redis/进阶/事务.md",
-    "Redis/进阶/节省空间.md",
-    "Redis/进阶/过期.md",
-    "Redis/进阶/管道.md",
-    "RabbitMQ/消息队列协议.md",
-    "RabbitMQ/基本概念.md",
-    "MyBatis/缓存.md",
-    "MyBatis/动态SQL.md",
-    "MyBatis/入门.md",
-    "MyBatis/分页.md",
-    "MyBatis/别名.md",
-    "Redis/进阶/持久化.md",
-    "Redis/散列.md",
-    "Redis/入门.md",
-    "Redis/字符串.md",
-    "Kafka"
->>>>>>> 9466534049af4508d344bc0672acac1a374dd569
   ]
 }
