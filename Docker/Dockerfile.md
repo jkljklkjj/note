@@ -33,12 +33,18 @@ ENV            # 构建的时候设置环境变量！
 #### 实践
 ```bash
 # 1. 编写dockerfile的文件
+# 将centos:7作为运行系统
 FROM centos:7
+# 记载作者和邮箱
 MAINTAINER sywl<xxx@qq.com>
+# 设置环境变量
 ENV MYPATH /usr/local
+# 设置镜像的工作目录
 WORKDIR $MYPATH
+# 运行安装命令安装所需软件
 RUN yum -y install vim
 RUN yum -y install net-tools
+# 镜像内部暴露的端口
 EXPOSE 80
 CMD echo $MYPATH
 CMD echo "-----end-----"
