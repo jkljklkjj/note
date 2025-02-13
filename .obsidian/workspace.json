@@ -148,10 +148,12 @@
   },
   "active": "370b062890c5dd5c",
   "lastOpenFiles": [
+    "新建文本文档..gitignore",
+    "新建文本文档.txt",
+    "Task/大二上学期总结.md",
+    "Task/大二下学期目标.md",
     "Go/数据类型.md",
     "Go/Hello World.md",
-    "Task/大二下学期目标.md",
-    "Task/大二上学期总结.md",
     "Task/算法.md",
     "Task/日记/20241017.md",
     "Java/IO流/组合输入、输出过滤器.md",
@@ -173,7 +175,6 @@
     "Redis/入门.md",
     "Redis/列表.md",
     "Redis/集合.md",
-    "Redis/运维/哨兵.md",
     "未命名.canvas",
     "Go"
   ]
