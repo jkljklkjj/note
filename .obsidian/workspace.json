@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task/大二下学期目标.md",
+                "file": "MyBatis/缓存.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大二下学期目标"
+              "title": "缓存"
             }
           }
         ]
@@ -164,32 +164,32 @@
   },
   "active": "370b062890c5dd5c",
   "lastOpenFiles": [
+    "MyBatis/关联.md",
+    "MyBatis/分页.md",
+    "MyBatis/动态SQL.md",
+    "MyBatis/别名.md",
+    "Mysql/入门.md",
+    "Netty/服务端.md",
+    "RabbitMQ/机制/预取值.md",
+    "RabbitMQ/机制/延迟队列.md",
+    "RabbitMQ/机制/消息应答.md",
+    "RabbitMQ/机制/死信队列.md",
+    "RabbitMQ/机制/发布确认.md",
+    "RabbitMQ/机制/持久化.md",
+    "RabbitMQ/机制/不公平分发.md",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/常用MQ.md",
+    "Task/大二上学期总结.md",
+    "Task/大二下学期目标.md",
     "Go/数据类型.md",
     "Go/Hello World.md",
-    "Task/大二下学期目标.md",
-    "Task/大二上学期总结.md",
     "Task/算法.md",
     "Task/日记/20241017.md",
     "Java/IO流/组合输入、输出过滤器.md",
     "ZooKeeper/Zookeeper 教程（超详细）.md",
     "MyBatis/配置.md",
-    "MyBatis/分页.md",
     "MyBatis/入门.md",
     "MyBatis/日志.md",
-    "MyBatis/生命周期和作用域.md",
-    "MyBatis/增删改查.md",
-    "MyBatis/Hello World.md",
-    "MyBatis/动态SQL.md",
-    "MyBatis/别名.md",
-    "Netty/客户端.md",
-    "Netty/服务端.md",
-    "Redis/字符串.md",
-    "Redis/有序集合.md",
-    "Redis/散列.md",
-    "Redis/入门.md",
-    "Redis/列表.md",
-    "Redis/集合.md",
-    "Redis/运维/哨兵.md",
     "未命名.canvas",
     "Go"
   ]
