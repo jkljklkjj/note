@@ -8,32 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3ff09c0a5a44afd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mysql/入门.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d3ee2e99dd37d19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mysql/JOIN.md",
+                "file": "Nginx/进阶/限流.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mysql/JOIN.md",
+                "file": "Nginx/进阶/限流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mysql/JOIN.md",
+                "file": "Nginx/进阶/限流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mysql/JOIN.md"
+                "file": "Nginx/进阶/限流.md"
               }
             }
           }
@@ -162,41 +148,41 @@
   },
   "active": "9d3ee2e99dd37d19",
   "lastOpenFiles": [
-    "Mysql/ORDER BY.md",
-    "Mysql/LIMIT.md",
-    "Mysql/JOIN.md",
-    "Mysql/入门.md",
-    "Mysql/HAVING.md",
-    "Mysql/GROUP BY.md",
-    "Mysql/WHERE.md",
-    "Mysql/FROM.md",
-    "Mysql/ON.md",
-    "JOIN.md",
-    "Java/JVM/JVM构成.md",
-    "Java/JVM/入门.md",
-    "Java/反射.md",
-    "MyBatis/配置.md",
+    "Nginx/进阶/配置文件.md",
+    "Nginx/进阶/限流.md",
+    "Nginx/入门.md",
+    "Nginx/进阶",
+    "Nginx/其它.md",
+    "Nginx/动静分离.md",
+    "Nginx/负载均衡.md",
+    "Nginx/反向代理.md",
+    "Nginx/静态服务器.md",
+    "Nginx/Hello, world!.md",
+    "Go/数据类型.md",
+    "Nginx",
+    "Go/入门.md",
+    "Go/变量.md",
+    "Netty/NIO/Netty02-入门.md",
+    "Netty/NIO/Netty01-nio.md",
+    "RabbitMQ/队列模式/Routing.md",
+    "RabbitMQ/队列模式/Exchanges.md",
+    "RabbitMQ/队列模式/Hello World.md",
+    "RabbitMQ/队列模式/Fanout.md",
+    "RabbitMQ/队列模式/Topics.md",
+    "RabbitMQ/队列模式/Work Queues.md",
+    "RabbitMQ/机制/消息应答.md",
+    "RabbitMQ/机制/预取值.md",
+    "RabbitMQ/机制/延迟队列.md",
+    "RabbitMQ/机制/死信队列.md",
+    "RabbitMQ/机制/持久化.md",
+    "RabbitMQ/机制/发布确认.md",
     "Java/JVM",
-    "Java/未命名 1.md",
     "update.bat",
     "update.txt",
     "新建文本文档.txt",
-    "其它/作者的大学经验.md",
-    "Task/大二下学期目标.md",
-    "Task/大二上学期总结.md",
-    "Spring/文档/Springdoc.md",
     "Spring/实例/demo/target/test-classes/com/example/demo/DemoApplicationTests.class",
     "Spring/实例/demo/target/classes/com/example/restservice/User.class",
     "Spring/实例/demo/target/classes/com/example/demo/DemoApplication.class",
-    "Spring/实例/demo/target/classes/application.properties",
-    "Spring/实例/demo/HELP.md",
-    "Java/多线程.md",
-    "Go/数据类型.md",
-    "Go/变量.md",
-    "Go/入门.md",
-    "Go/Hello World.md",
-    "Go",
-    "Java/未命名.md",
-    "Task/日记"
+    "Spring/实例/demo/target/classes/application.properties"
   ]
 }
