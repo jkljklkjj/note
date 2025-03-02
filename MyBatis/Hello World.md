@@ -59,7 +59,7 @@ INSERT INTO `user`(`id`,`name`,`pwd`) VALUES
     </build>
 ```
 
-编写Mybatis核心配置文件，在**resources**下创建mybatis-config.xml文件，配置自己的**数据库地址、名字、密码以及mysql驱动**
+编写Mybatis核心配置文件，在**resources**下创建`mybatis-config.xml`文件，配置自己的**数据库地址、名字、密码以及mysql驱动**，同时新增**mapper**的时候在这里注册
 ```java
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration

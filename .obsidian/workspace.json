@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/进阶/限流.md",
+                "file": "Redis/进阶/节省空间.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/进阶/限流.md",
+                "file": "Redis/进阶/节省空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/进阶/限流.md",
+                "file": "Redis/进阶/节省空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/进阶/限流.md"
+                "file": "Redis/进阶/节省空间.md"
               }
             }
           }
@@ -148,34 +148,35 @@
   },
   "active": "9d3ee2e99dd37d19",
   "lastOpenFiles": [
-    "Nginx/进阶/配置文件.md",
-    "Nginx/进阶/限流.md",
-    "Nginx/入门.md",
-    "Nginx/进阶",
-    "Nginx/其它.md",
-    "Nginx/动静分离.md",
-    "Nginx/负载均衡.md",
-    "Nginx/反向代理.md",
-    "Nginx/静态服务器.md",
-    "Nginx/Hello, world!.md",
-    "Go/数据类型.md",
-    "Nginx",
-    "Go/入门.md",
+    "Redis/进阶/过期.md",
+    "Redis/进阶/排序.md",
+    "Redis/进阶/节省空间.md",
+    "Redis/进阶/管道.md",
+    "Redis/入门.md",
+    "Redis/散列.md",
+    "Redis/有序集合.md",
+    "Redis/字符串.md",
+    "Redis/集合.md",
+    "MyBatis/别名.md",
+    "MyBatis/动态SQL.md",
+    "MyBatis/关联.md",
+    "MyBatis/入门.md",
+    "MyBatis/Hello World.md",
+    "MyBatis/生命周期和作用域.md",
+    "MyBatis/日志.md",
+    "MyBatis/配置.md",
+    "MyBatis/缓存.md",
+    "MyBatis/分页.md",
+    "MyBatis/增删改查.md",
     "Go/变量.md",
-    "Netty/NIO/Netty02-入门.md",
-    "Netty/NIO/Netty01-nio.md",
-    "RabbitMQ/队列模式/Routing.md",
-    "RabbitMQ/队列模式/Exchanges.md",
-    "RabbitMQ/队列模式/Hello World.md",
-    "RabbitMQ/队列模式/Fanout.md",
-    "RabbitMQ/队列模式/Topics.md",
-    "RabbitMQ/队列模式/Work Queues.md",
-    "RabbitMQ/机制/消息应答.md",
-    "RabbitMQ/机制/预取值.md",
-    "RabbitMQ/机制/延迟队列.md",
-    "RabbitMQ/机制/死信队列.md",
-    "RabbitMQ/机制/持久化.md",
-    "RabbitMQ/机制/发布确认.md",
+    "图灵课堂赠/1615192248858.png",
+    "图灵课堂赠/02JAVA并发篇.MD",
+    "图灵课堂赠/01开篇词.MD",
+    "其它/网站推荐.md",
+    "其它/作者的大学经验.md",
+    "Docker/Dockerfile.md",
+    "Nginx/进阶",
+    "Nginx",
     "Java/JVM",
     "update.bat",
     "update.txt",
