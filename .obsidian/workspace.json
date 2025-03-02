@@ -8,6 +8,30 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
+=======
+            "id": "e3ff09c0a5a44afd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+<<<<<<< HEAD
+                "file": "Task/项目优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目优化"
+=======
+                "file": "Mysql/入门.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+>>>>>>> 77084741572905f7f5a2b7116eac4f20cff4a667
             "id": "9d3ee2e99dd37d19",
             "type": "leaf",
             "state": {
@@ -17,6 +41,7 @@
                 "mode": "source",
                 "source": false
               }
+>>>>>>> dbc046caf65009468fff989049fd79530c6e31d5
             }
           }
         ]
@@ -148,6 +173,7 @@
   },
   "active": "9d3ee2e99dd37d19",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Redis/进阶/过期.md",
     "Redis/进阶/排序.md",
     "Redis/进阶/节省空间.md",
@@ -164,6 +190,23 @@
     "MyBatis/Hello World.md",
     "MyBatis/生命周期和作用域.md",
     "MyBatis/日志.md",
+=======
+<<<<<<< HEAD
+=======
+    "Mysql/ORDER BY.md",
+    "Mysql/LIMIT.md",
+    "Mysql/JOIN.md",
+    "Mysql/入门.md",
+    "Mysql/HAVING.md",
+    "Mysql/GROUP BY.md",
+    "Mysql/WHERE.md",
+    "Mysql/FROM.md",
+    "Mysql/ON.md",
+    "JOIN.md",
+    "Java/JVM/JVM构成.md",
+    "Java/JVM/入门.md",
+    "Java/反射.md",
+>>>>>>> 77084741572905f7f5a2b7116eac4f20cff4a667
     "MyBatis/配置.md",
     "MyBatis/缓存.md",
     "MyBatis/分页.md",
@@ -181,9 +224,59 @@
     "update.bat",
     "update.txt",
     "新建文本文档.txt",
+<<<<<<< HEAD
     "Spring/实例/demo/target/test-classes/com/example/demo/DemoApplicationTests.class",
     "Spring/实例/demo/target/classes/com/example/restservice/User.class",
     "Spring/实例/demo/target/classes/com/example/demo/DemoApplication.class",
     "Spring/实例/demo/target/classes/application.properties"
+=======
+    "其它/作者的大学经验.md",
+>>>>>>> dbc046caf65009468fff989049fd79530c6e31d5
+    "Task/大二下学期目标.md",
+    "Task/项目优化.md",
+    "Task/大二上学期总结.md",
+<<<<<<< HEAD
+    "Task/算法.md",
+    "MyBatis/缓存.md",
+    "MyBatis/关联.md",
+    "MyBatis/分页.md",
+    "MyBatis/动态SQL.md",
+    "MyBatis/别名.md",
+    "Mysql/入门.md",
+    "Netty/服务端.md",
+    "RabbitMQ/机制/预取值.md",
+    "RabbitMQ/机制/延迟队列.md",
+    "RabbitMQ/机制/消息应答.md",
+    "RabbitMQ/机制/死信队列.md",
+    "RabbitMQ/机制/发布确认.md",
+    "RabbitMQ/机制/持久化.md",
+    "RabbitMQ/机制/不公平分发.md",
+    "RabbitMQ/基本概念.md",
+    "RabbitMQ/常用MQ.md",
+    "Go/数据类型.md",
+    "Go/Hello World.md",
+    "Task/日记/20241017.md",
+    "Java/IO流/组合输入、输出过滤器.md",
+    "ZooKeeper/Zookeeper 教程（超详细）.md",
+    "MyBatis/配置.md",
+    "未命名.canvas",
+    "Go"
+=======
+    "Spring/文档/Springdoc.md",
+    "Spring/实例/demo/target/test-classes/com/example/demo/DemoApplicationTests.class",
+    "Spring/实例/demo/target/classes/com/example/restservice/User.class",
+    "Spring/实例/demo/target/classes/com/example/demo/DemoApplication.class",
+    "Spring/实例/demo/target/classes/application.properties",
+    "Spring/实例/demo/HELP.md",
+    "Java/多线程.md",
+    "Go/数据类型.md",
+    "Go/变量.md",
+    "Go/入门.md",
+    "Go/Hello World.md",
+    "Go",
+    "Java/未命名.md",
+    "Task/日记"
+>>>>>>> dbc046caf65009468fff989049fd79530c6e31d5
+>>>>>>> 77084741572905f7f5a2b7116eac4f20cff4a667
   ]
 }
