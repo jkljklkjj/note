@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "25c3d6c4f1fc5f7c",
     "type": "split",
     "children": [
@@ -9,14 +10,34 @@
         "children": [
           {
             "id": "587dab57d8cc05b3",
+=======
+    "id": "c2d2ae632302e35f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fc39f688f4ce1e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bf433099b5f8849",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/源码/@SpringBootApplication.md",
                 "mode": "source",
                 "source": false
               }
+=======
+                "file": "Nginx/其它.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "其它"
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             }
           }
         ]
@@ -25,6 +46,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "38ecd6b7b2c9753d",
     "type": "split",
     "children": [
@@ -34,16 +56,33 @@
         "children": [
           {
             "id": "4e7038935aab295b",
+=======
+    "id": "d052881ef11894f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "24f917333765154f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8464181af97ad9b5",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
+<<<<<<< HEAD
             "id": "8f1f3912136869a2",
+=======
+            "id": "c9024373c824785f",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,15 +93,23 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
+<<<<<<< HEAD
             "id": "d39918603b7defda",
+=======
+            "id": "8e54dec708d2b60f",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -72,6 +119,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "fc21885f1f890f01",
     "type": "split",
     "children": [
@@ -81,11 +129,26 @@
         "children": [
           {
             "id": "9f5788ad7963ff9a",
+=======
+    "id": "396c7508e5405790",
+    "type": "split",
+    "children": [
+      {
+        "id": "43df421d559e6193",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aee4269005a059b7",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/源码/@SpringBootApplication.md",
+=======
+                "file": "Nginx/动静分离.md",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,40 +156,69 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "动静分离 的反向链接列表"
             }
           },
           {
+<<<<<<< HEAD
             "id": "bc99eae1f593197c",
+=======
+            "id": "2b3dd42c09daf0cb",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/源码/@SpringBootApplication.md",
+=======
+                "file": "Nginx/动静分离.md",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "动静分离 的出链列表"
             }
           },
           {
+<<<<<<< HEAD
             "id": "c6e687a5850572f8",
+=======
+            "id": "688386c5ba747005",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
+<<<<<<< HEAD
             "id": "c96a4a6d369e0867",
+=======
+            "id": "5fa82b6acd70af36",
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Spring/源码/@SpringBootApplication.md"
               }
+=======
+                "file": "Nginx/动静分离.md"
+              },
+              "icon": "lucide-list",
+              "title": "动静分离 的大纲"
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
             }
           }
         ]
@@ -146,6 +238,7 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "587dab57d8cc05b3",
   "lastOpenFiles": [
     "MyBatis/缓存.md",
@@ -174,5 +267,18 @@
     "RabbitMQ/队列模式/Topics.md",
     "RabbitMQ/队列模式/Routing.md",
     "Nginx/入门.md"
+=======
+  "active": "0bf433099b5f8849",
+  "lastOpenFiles": [
+    "Nginx/反向代理.md",
+    "Nginx/动静分离.md",
+    "Nginx/入门.md",
+    "Nginx/Hello, world!.md",
+    "Nginx/其它.md",
+    "Nginx/静态服务器.md",
+    "Nginx/负载均衡.md",
+    "Nginx/进阶/配置文件.md",
+    "Nginx/进阶/限流.md"
+>>>>>>> 7b7f2905f4854a80a23ceda10417f71047115b20
   ]
 }
