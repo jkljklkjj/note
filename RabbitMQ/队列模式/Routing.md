@@ -1,4 +1,4 @@
-和Fanout差不多，但是消息只去到它绑定的 routingKey 队列中去
+和Fanout差不多，但是消息**只去到它绑定的 routingKey 队列**中去
 ![](https://i-blog.csdnimg.cn/blog_migrate/e9ddbdb81c28791a5705ad070b5c25cc.png)
 举个简单的例子，在上面这张图中，我们可以看到交换机X为direct模式，绑定了两个队列，队列Q1绑定键为 orange，队列Q2绑定键有两个：一个绑定键为 black，另一个绑定键为 green。
 
