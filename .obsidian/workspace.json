@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyBatis/缓存.md",
+                "file": "Spring/源码/@SpringBootApplication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MyBatis/缓存.md",
+                "file": "Spring/源码/@SpringBootApplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MyBatis/缓存.md",
+                "file": "Spring/源码/@SpringBootApplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyBatis/缓存.md"
+                "file": "Spring/源码/@SpringBootApplication.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "587dab57d8cc05b3",
   "lastOpenFiles": [
+    "MyBatis/缓存.md",
     "MyBatis/日志.md",
     "MyBatis/生命周期和作用域.md",
     "MyBatis/动态SQL.md",
@@ -172,7 +173,6 @@
     "RabbitMQ/常用MQ.md",
     "RabbitMQ/队列模式/Topics.md",
     "RabbitMQ/队列模式/Routing.md",
-    "Nginx/入门.md",
-    "Nginx/其它.md"
+    "Nginx/入门.md"
   ]
 }
