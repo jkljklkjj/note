@@ -8,18 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4acb4a37e3d9a6ba",
+            "id": "df023e359f459cee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股文/Redis/集群.md",
+                "file": "八股文/操作系统/并发通信.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "并发通信"
+            }
+          },
+          {
+            "id": "0ab8183fd188b812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股文/Redis/缓存一致性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "缓存一致性"
+            }
+          },
+          {
+            "id": "e4f34afcf69bda3c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81redis%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7",
+                "title": "如何保证redis缓存一致性 - 搜索",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "如何保证redis缓存一致性 - 搜索"
+            }
+          },
+          {
+            "id": "1d6725cf9f0b0cb3",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://zhuanlan.zhihu.com/p/119440806",
+                "title": "面试官：如何保障数据库和redis缓存的一致性 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "面试官：如何保障数据库和redis缓存的一致性 - 知乎"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +83,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +102,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,14 +112,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "fc21885f1f890f01",
@@ -85,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股文/Redis/集群.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +144,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -102,10 +155,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股文/Redis/集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -115,8 +169,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -125,8 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股文/Redis/集群.md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
         ]
@@ -143,40 +205,42 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false
     }
   },
-  "active": "4acb4a37e3d9a6ba",
+  "active": "0ab8183fd188b812",
   "lastOpenFiles": [
+    "八股文/Redis/缓存一致性.md",
     "八股文/Redis/缓存三兄弟.md",
-    "八股文/操作系统/零拷贝.md",
-    "八股文/Redis/集群.md",
-    "八股文/分布式/CAP和BASE.md",
-    "八股文/Redis",
-    "八股文/分布式",
-    "Kafka/基本知识.md",
-    "MyBatis/Hello World.md",
-    "MyBatis/增删改查.md",
+    "八股文/Redis/持久化.md",
+    "八股文/Mysql/B+树.md",
+    "八股文/Mysql",
+    "八股文/操作系统/并发通信.md",
+    "八股文/操作系统/进程线程协程.md",
+    "MyBatis/配置.md",
+    "MyBatis/缓存.md",
+    "MyBatis/关联.md",
+    "MyBatis/分页.md",
     "MyBatis/动态SQL.md",
-    "Java/多线程.md",
-    "图灵课堂赠/09MySQL数据库篇.MD",
-    "图灵课堂赠/06缓存篇.MD",
-    "八股文/索引.md",
-    "八股文/操作系统",
-    "Kafka/Consumer.md",
-    "八股文",
-    "Kafka/入门.md",
-    "Kafka/配置.md",
+    "MyBatis/别名.md",
+    "八股文/操作系统/零拷贝.md",
+    "八股文/分布式/Zab.md",
+    "八股文/分布式/Raft.md",
+    "并发通信.md",
+    "2025-04-30.md",
+    "八股文/分布式/CAP和BASE.md",
+    "八股文/Redis/集群.md",
+    "j集群.md",
+    "Netty/NIO/Netty04-优化与源码.md",
+    "Netty/NIO/Netty03-进阶.md",
     "Netty/NIO/Netty02-入门.md",
     "Netty/NIO/Netty01-nio.md",
-    "Mysql/LIMIT.md",
-    "Mysql/GROUP BY.md",
-    "Mysql/入门.md",
-    "Mysql/FROM.md",
-    "MyBatis/生命周期和作用域.md",
-    "MyBatis/入门.md",
-    "MyBatis/日志.md",
-    "MyBatis/配置.md",
-    "MyBatis/缓存.md"
+    "Netty/服务端.md",
+    "Java/注解.md",
+    "八股文/Redis",
+    "八股文/分布式",
+    "八股文/操作系统",
+    "八股文"
   ]
 }
