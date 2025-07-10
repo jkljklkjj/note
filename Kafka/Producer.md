@@ -70,15 +70,15 @@ public ProducerRecord(String topic, K key, V value) {}
 
 ##### 同步发送
 ```java
-ProducerRecord<String,String> record = new ProducerRecord<String, String>("CustomerCountry","West","France"); 
-try{ 
+ProducerRecord<String,String> record = new ProducerRecord<String, String>("CustomerCountry","West","France");
+try{
 	RecordMetadata recordMetadata = producer.send(record).get();
 } catch(Exception e) {
 	e.printStackTrace();
 }
 ```
 
-这种发送消息的方式较上面的发送方式有了改进，首先调用 send() 方法，然后再调用 get() 方法等待 Kafka 响应。如果服务器返回错误，get() 方法会抛出异常，如果没有发生错误，我们会得到 `RecordMetadata` 对象，可以用它来查看消息记录。
+这种发送消息的方式较上面的发送方式有了改进，首先调用 send() 方法，然后再调用 **get()** 方法等待 Kafka 响应。如果服务器返回错误，get() 方法会抛出异常，如果没有发生错误，我们会得到 `RecordMetadata` 对象，可以用它来查看消息记录。
 
 生产者（KafkaProducer）在发送的过程中会出现两类错误：其中一类是**重试错误**，这类错误可以通过重发消息来解决。比如连接的错误，可以通过再次建立连接来解决；无`主`错误则可以通过重新为分区选举首领来解决。KafkaProducer 被配置为自动重试，如果多次重试后仍无法解决问题，则会抛出重试异常。另一类错误是无法通过重试来解决的，比如`消息过大`对于这类错误，KafkaProducer 不会进行重试，直接抛出异常。
 
@@ -94,6 +94,7 @@ producer.send(producerRecord,new DemoProducerCallBack());
 
 class DemoProducerCallBack implements Callback { 
 	public void onCompletion(RecordMetadata metadata, Exception exception){
+		// 这里执行业务逻辑
 		if(exception != null){ 
 			exception.printStackTrace(); 
 		} 
@@ -116,8 +117,8 @@ Kafka 的分区策略指的就是将生产者发送到哪个分区的算法。Ka
 如果要自定义分区策略的话，你需要显示配置生产者端的参数 `Partitioner.class`，我们可以看一下这个类它位于 `org.apache.kafka.clients.producer` 包下
 ```java
 public interface Partitioner extends Configurable, Closeable { 
-	public int partition(String topic, Object key, byte[] keyBytes, Object value, byte[] valueBytes, Cluster cluster); 
-	public void close(); 
+	public int partition(String topic, Object key, byte[] keyBytes, Object value, byte[] valueBytes, Cluster cluster);
+	public void close();
 	default public void onNewBatch(String topic, Cluster cluster, int prevPartition) {}
 }
 ```

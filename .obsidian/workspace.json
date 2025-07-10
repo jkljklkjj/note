@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "25c3d6c4f1fc5f7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "527fce671bf79f7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df023e359f459cee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股文/操作系统/并发通信.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "并发通信"
+            }
+          },
+          {
+            "id": "0ab8183fd188b812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股文/Redis/缓存一致性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "缓存一致性"
+            }
+          },
+          {
+            "id": "e4f34afcf69bda3c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81redis%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7",
+                "title": "如何保证redis缓存一致性 - 搜索",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "如何保证redis缓存一致性 - 搜索"
+            }
+          },
+          {
+            "id": "1d6725cf9f0b0cb3",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://zhuanlan.zhihu.com/p/119440806",
+                "title": "面试官：如何保障数据库和redis缓存的一致性 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "面试官：如何保障数据库和redis缓存的一致性 - 知乎"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38ecd6b7b2c9753d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbb72116479f596a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e7038935aab295b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8f1f3912136869a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d39918603b7defda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "fc21885f1f890f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c9f32dc54c80bc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f5788ad7963ff9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "bc99eae1f593197c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "c6e687a5850572f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c96a4a6d369e0867",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false
+    }
+  },
+  "active": "0ab8183fd188b812",
+  "lastOpenFiles": [
+    "八股文/Redis/缓存一致性.md",
+    "八股文/Redis/缓存三兄弟.md",
+    "八股文/Redis/持久化.md",
+    "八股文/Mysql/B+树.md",
+    "八股文/Mysql",
+    "八股文/操作系统/并发通信.md",
+    "八股文/操作系统/进程线程协程.md",
+    "MyBatis/配置.md",
+    "MyBatis/缓存.md",
+    "MyBatis/关联.md",
+    "MyBatis/分页.md",
+    "MyBatis/动态SQL.md",
+    "MyBatis/别名.md",
+    "八股文/操作系统/零拷贝.md",
+    "八股文/分布式/Zab.md",
+    "八股文/分布式/Raft.md",
+    "并发通信.md",
+    "2025-04-30.md",
+    "八股文/分布式/CAP和BASE.md",
+    "八股文/Redis/集群.md",
+    "j集群.md",
+    "Netty/NIO/Netty04-优化与源码.md",
+    "Netty/NIO/Netty03-进阶.md",
+    "Netty/NIO/Netty02-入门.md",
+    "Netty/NIO/Netty01-nio.md",
+    "Netty/服务端.md",
+    "Java/注解.md",
+    "八股文/Redis",
+    "八股文/分布式",
+    "八股文/操作系统",
+    "八股文"
+  ]
+}
