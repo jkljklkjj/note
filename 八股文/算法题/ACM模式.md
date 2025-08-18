@@ -15,6 +15,7 @@ public class Main{
 - 数组
 - 二维数组
 - 链表
+- 树
 
 获取对应的数据后，再传入solve()函数进行解答，IO和解答要分开才更容易看清，也符合力扣模式
 
@@ -69,6 +70,33 @@ for(String s:ts){
 	cur = cur.next;
 }
 // 最后dummyHead.next为链表头结点
+```
+
+树，因为输入一般为树的先序遍历结果，所以用先序遍历建立
+```java
+static int index = 0;
+static class TreeNode{
+	int val;
+	TreeNode left;
+	TreeNode right;
+	public TreeNode(int val){
+		this.val = val;
+	}
+
+	static TreeNode build(int[] nums){
+		if(index>=nums.length || nums[index]==-1){
+			index++;
+			return null;
+		}
+		TreeNode node = new TreeNode(nums[index++]);
+		node.left = build(nums);
+		node.right = build(nums);
+		return node;
+	}
+}
+
+// nums可以看数组是如何扫描的
+TreeNode root = TreeNode.build(nums);
 ```
 
 #### 静态
