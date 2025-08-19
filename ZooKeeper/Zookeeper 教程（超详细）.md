@@ -28,10 +28,21 @@
   提供的服务包括：统一命名服务、统一配置管理、统一集群管理、服务器节点动态上下线、软负载均衡等。
 
  1.  **统一命名服务** 在分布式环境下，经常需要对应用/服务进行统一命名 ，便于识别。例如：IP 不容易记住，而域名容易记住。 ![](https://i-blog.csdnimg.cn/blog_migrate/67d1c105a03bf16f393fc31f54f44faf.png) 
- 1.  **统一配置管理** （1）分布式环境下，配置文件同步非常常见。   ① 一般要求一个集群中，所有节点的配置信息是一致的，比如 Kafka 集群。   ② 对配置文件修改后，希望能够快速同步到各个节点上。 （2）配置管理可交由 ZooKeeper 实现。   ① 可将配置信息写入 ZooKeeper 上的一个 Znode 。   ② 各个客户端服务器监听这个 Znode。   ③ 一旦 Znode 中的数据被修改，ZooKeeper 将通知各个客户端服务器。 ![](https://i-blog.csdnimg.cn/blog_migrate/45984ebf76a404fa7af18d38bab1129b.png) 
- 1.  **统一集群管理** （1）分布式环境中，实时掌握每个节点的状态是必要的。   可根据节点实时状态做出一些调整。 （2）ZooKeeper 可以实现实时监控节点状态变化   ① 可将节点信息写入Z ooKeeper 上的一个 ZNode。   ② 监听这个 ZNode 可获取它的实时状态变化。 ![](https://i-blog.csdnimg.cn/blog_migrate/633825e96e1fc139478bd07907da2bfd.png) 
+ 1.  **统一配置管理** 
+（1）分布式环境下，配置文件同步非常常见。   
+    ① 一般要求一个集群中，所有节点的配置信息是一致的，比如 Kafka 集群。   
+    ② 对配置文件修改后，希望能够快速同步到各个节点上。 
+（2）配置管理可交由 ZooKeeper 实现。   
+	① 可将配置信息写入 ZooKeeper 上的一个 Znode 。   
+	② 各个客户端服务器监听这个 Znode。   
+	③ 一旦 Znode 中的数据被修改，ZooKeeper 将通知各个客户端服务器。 ![](https://i-blog.csdnimg.cn/blog_migrate/45984ebf76a404fa7af18d38bab1129b.png) 
+ 1.  **统一集群管理** 
+（1）分布式环境中，实时掌握每个节点的状态是必要的。   可根据节点实时状态做出一些调整。 
+（2）ZooKeeper 可以实现实时监控节点状态变化   
+	① 可将节点信息写入Z ooKeeper 上的一个 ZNode。   
+	② 监听这个 ZNode 可获取它的实时状态变化。 ![](https://i-blog.csdnimg.cn/blog_migrate/633825e96e1fc139478bd07907da2bfd.png) 
  1.  **服务器动态上下线** ![](https://i-blog.csdnimg.cn/blog_migrate/756616753b36ce5a031c97016e8846b7.png) 
- 1.  **软负载均衡** 在 Zookeeper 中记录每台服务器的访问数，让访问数最少的服务器去处理最新的客户端请求。 ![](https://i-blog.csdnimg.cn/blog_migrate/8ed5429dc46ad84c212e066c6aa2a512.png) 
+ 2.  **软负载均衡** 在 Zookeeper 中记录每台服务器的访问数，让访问数最少的服务器去处理最新的客户端请求。 ![](https://i-blog.csdnimg.cn/blog_migrate/8ed5429dc46ad84c212e066c6aa2a512.png) 
 
 ## 2. Zookeeper 安装
 
@@ -191,9 +202,10 @@ mv zoo_sample.cfg zoo.cfg
 dataDir=/hadoop/zookeeper-3.5.6/zkData
 ```
 
-    增加如下配置
+    增加如下配置,表示集群的信息
 
-```
+```bash
+# 节点编号、主机名/IP、节点通信端口、节点选举端口
 server.0=master:2888:3888
 server.1=slave1:2888:3888
 server.2=slave2:2888:3888
@@ -213,8 +225,8 @@ vim /etc/profile
 
     ② 在配置文件中添加以下内容
 
-```
-#ZOOKEEPER
+```bash
+# ZOOKEEPER
 export ZOOKEEPER_HOME=/hadoop/zookeeper-3.5.6
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
 ```

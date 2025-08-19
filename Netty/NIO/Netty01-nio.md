@@ -16,7 +16,7 @@ buffer --> channel
 
 常见的 Channel 有
 
-* FileChannel
+* FileChannel 利用sendfile进行零拷贝
 * DatagramChannel
 * SocketChannel
 * ServerSocketChannel
@@ -26,7 +26,7 @@ buffer --> channel
 buffer 则用来缓冲读写数据，常见的 buffer 有
 
 * ByteBuffer
-  * MappedByteBuffer
+  * MappedByteBuffer 利用mmap进行零拷贝
   * DirectByteBuffer
   * HeapByteBuffer
 * ShortBuffer
