@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/其它.md",
+                "file": "Java/SPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "其它"
+              "title": "SPI"
             }
           }
         ]
@@ -164,11 +164,13 @@
   },
   "active": "0bf433099b5f8849",
   "lastOpenFiles": [
+    "Java/反射.md",
+    "Java/SPI.md",
+    "Nginx/其它.md",
     "Nginx/反向代理.md",
     "Nginx/动静分离.md",
     "Nginx/入门.md",
     "Nginx/Hello, world!.md",
-    "Nginx/其它.md",
     "Nginx/静态服务器.md",
     "Nginx/负载均衡.md",
     "Nginx/进阶/配置文件.md",
