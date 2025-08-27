@@ -48,37 +48,9 @@
               "icon": "globe-2",
               "title": "力扣 (LeetCode) 全球极客挚爱的技术成长平台"
             }
-          },
-          {
-            "id": "7c510396a7232b6a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://leetcode.cn/contest/weekly-contest-463/",
-                "title": "第 463 场周赛 - 力扣（LeetCode）",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "第 463 场周赛 - 力扣（LeetCode）"
-            }
-          },
-          {
-            "id": "3575a30216ad9cf8",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://leetcode.cn/contest/weekly-contest-463/problems/best-time-to-buy-and-sell-stock-using-strategy/",
-                "title": "按策略买卖股票的最佳时机 - 力扣（LeetCode）",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "按策略买卖股票的最佳时机 - 力扣（LeetCode）"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,10 +197,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3575a30216ad9cf8",
+  "active": "986aa3ce99978ce7",
   "lastOpenFiles": [
-    "八股文/算法题/思维/二分.md",
     "八股文/算法题/0. 经典树题目.md",
+    "八股文/算法题/思维/二分.md",
     "八股文/算法题/思维/树.md",
     "八股文/算法题/ACM模式.md",
     "八股文/算法题/148. 排序链表.md",
