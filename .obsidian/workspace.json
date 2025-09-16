@@ -1,38 +1,20 @@
 {
   "main": {
-    "id": "25c3d6c4f1fc5f7c",
+    "id": "700ed01339ba1815",
     "type": "split",
     "children": [
       {
-        "id": "527fce671bf79f7b",
+        "id": "1e1643cedcfeb434",
         "type": "tabs",
         "children": [
           {
-            "id": "df023e359f459cee",
+            "id": "347e704fe5b4a963",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习日志/日志/202508/25.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "25"
-            }
-          },
-          {
-            "id": "caaff7e75971e092",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://cn.bing.com/search?q=Zab%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3",
-                "title": "cn.bing.com/search?q=Zab算法详解",
-                "mode": "error"
-              },
-              "icon": "lucide-ghost",
-              "title": "webviewer"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "38ecd6b7b2c9753d",
+    "id": "281757301d61c1de",
     "type": "split",
     "children": [
       {
-        "id": "bbb72116479f596a",
+        "id": "7bcf30e7b4e4e042",
         "type": "tabs",
         "children": [
           {
-            "id": "4e7038935aab295b",
+            "id": "348c5b72117b95e5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +44,7 @@
             }
           },
           {
-            "id": "8f1f3912136869a2",
+            "id": "594c325ed09b99f9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +61,7 @@
             }
           },
           {
-            "id": "d39918603b7defda",
+            "id": "add2e19013bf190b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 300
   },
   "right": {
-    "id": "fc21885f1f890f01",
+    "id": "6a8c76d98d2bc096",
     "type": "split",
     "children": [
       {
-        "id": "7c9f32dc54c80bc7",
+        "id": "98f2044c5610afff",
         "type": "tabs",
         "children": [
           {
-            "id": "9f5788ad7963ff9a",
+            "id": "906bb06eebfac8f3",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -121,7 +103,7 @@
             }
           },
           {
-            "id": "bc99eae1f593197c",
+            "id": "bd832d2d1ec74107",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -134,7 +116,7 @@
             }
           },
           {
-            "id": "c6e687a5850572f8",
+            "id": "76d16673aaed14f9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,7 +131,7 @@
             }
           },
           {
-            "id": "c96a4a6d369e0867",
+            "id": "a5c8aa00c320b98d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -171,7 +153,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -180,43 +161,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "df023e359f459cee",
-  "lastOpenFiles": [
-    "实习日志/微服务架构.md",
-    "八股文/微服务/远程调用.md",
-    "八股文/设计模式/工厂模式.md",
-    "八股文/微服务/配置中心.md",
-    "八股文/微服务/组件.md",
-    "八股文/微服务/注册中心.md",
-    "八股文/微服务/定义.md",
-    "八股文/微服务",
-    "实习日志/日志/202508/25.md",
-    "实习日志/日志/202508",
-    "实习日志/项目包Channel.md",
-    "实习日志/日志",
-    "实习日志/接口.md",
-    "实习日志",
-    "八股文/面试/2025-07-16 字节.md",
-    "八股文/面试",
-    "八股文/面试.md",
-    "八股文/算法题/思维/递归.md",
-    "八股文/算法题/思维/链表.md",
-    "八股文/算法题/思维/树.md",
-    "八股文/算法题/思维/回溯.md",
-    "八股文/算法题/思维/动态规划.md",
-    "八股文/算法题/思维/二分.md",
-    "八股文/算法题/思维",
-    "八股文/算法题/ACM模式.md",
-    "八股文/算法题/994. 腐烂的橘子.md",
-    "八股文/算法题/73. 矩阵置零.md",
-    "八股文/算法题/560. 和为K的子数组.md",
-    "八股文/算法题/322. 零钱兑换.md",
-    "八股文/算法题/25. K个一组翻转链表.md",
-    "八股文/算法题/230. 二叉搜索树中第k大节点.md",
-    "八股文/算法题/21. 合并有序链表.md",
-    "八股文/算法题",
-    "八股文/设计模式",
-    "八股文/Mysql",
-    "八股文/Redis"
-  ]
+  "active": "347e704fe5b4a963",
+  "lastOpenFiles": []
 }
