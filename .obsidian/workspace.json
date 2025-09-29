@@ -36,34 +36,6 @@
             }
           },
           {
-            "id": "fd9e8e90fa0ad1a5",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://leetcode.cn/studyplan/top-100-liked/",
-                "title": "LeetCode 热题 100 - 学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "LeetCode 热题 100 - 学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台"
-            }
-          },
-          {
-            "id": "ab8e327280b0afa3",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://leetcode.cn/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked",
-                "title": "35. 搜索插入位置 - 力扣（LeetCode）",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "35. 搜索插入位置 - 力扣（LeetCode）"
-            }
-          },
-          {
             "id": "7aad25713dc9c5ce",
             "type": "leaf",
             "state": {
@@ -76,23 +48,9 @@
               "icon": "lucide-file",
               "title": "51. N皇后"
             }
-          },
-          {
-            "id": "4547021aed4ac72a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://chat.deepseek.com/a/chat/s/93e187b0-06b1-45a6-9dd8-87089abc1d27",
-                "title": "无代码平台元数据结构解析 - DeepSeek",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "无代码平台元数据结构解析 - DeepSeek"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "396c7508e5405790",
@@ -236,7 +193,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ab8e327280b0afa3",
+  "active": "7aad25713dc9c5ce",
   "lastOpenFiles": [
     "八股文/算法题/51. N皇后.md",
     "八股文/算法题/17. 电话号码的字母组合.md",
