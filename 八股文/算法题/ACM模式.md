@@ -99,6 +99,35 @@ static class TreeNode{
 TreeNode root = TreeNode.build(nums);
 ```
 
+同时树也可以搞一个包装器，包装一下数组就可以了
+```java
+static class TreeNode{
+	int i;
+	
+	public TreeNode(int i){
+		this.i = i;
+	}
+
+	int getVal(){
+		return nums[i];
+	}
+	
+	TreeNode getLeft(){
+		int index = 2*i;
+		if(index>=nums.length) return null;
+		if(nums[index]==-1) return null;
+		return new TreeNode(index);
+	}
+	
+	TreeNode getRight(){
+		int index = 2*i+1;
+		if(index>=nums.length) return null;
+		if(nums[index]==-1) return null;
+		return new TreeNode(index);
+	}
+}
+```
+
 #### 静态
 - 定义类的时候要用静态，才能在同一文件给Main类使用
 - 定义全局变量的时候要用静态，才能给main方法使用
