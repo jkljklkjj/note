@@ -130,5 +130,46 @@ static class TreeNode{
 
 #### 静态
 - 定义类的时候要用静态，才能在同一文件给Main类使用
-- 定义全局变量的时候要用静态，才能给main方法使用
-- 
+- 定义全局变量的时候要用静态，才能给main方法或者静态方法使用
+- 定义方法的时候要静态，才能给作为静态函数的main方法调用
+
+#### 笔试fastReader
+如果是面试的时候的算法还好，数据规模从来没超过10，凭感觉判断复杂度 。但是如果遇到笔试题的算法，那是真正的复杂度，通过数据规模去判断你的复杂度对不对。但是如果你复杂度过了，在IO规模大的情况下单靠一个IO时间就能让你超时
+```java
+Scanner sc = new Scanner(System.in);
+while(q--!=0){
+	int a = sc.nextInt(), b = sc.nextInt();
+}
+```
+
+我们要用BufferReader的方式去读取，注意它只有读取一行字符串的功能
+```java
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String s = br.readLine();
+int n = Integer.valueOf(br.readLine());
+```
+
+同时可以使用StreamTokenizer去达到类似nextInt()的效果
+```java
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StreamTokenizer st = new StreamTokenizer(br);
+st.nextToken();String s = st.sval;
+st.nextToken();int n = (int)st.nval;
+```
+
+注意st.nval实际上是double类型，double的表示范围不够long，所以无法读取long类型的数，只能先读取成字符串再转
+```java
+st.nextToken();long n = (long)st.nval; // 这个错爆了
+st.nextToken();long n = Long.valueOf(st.sval);
+```
+
+输出时，最好把所有的结果拼接后再输出
+```java
+// 下面是普通的输出
+System.out.println(ans);
+
+// 下面是fastPrinter
+StringBuilder out = new StringBuilder();
+out.append(ans);
+out.append('\n'); // 用char更快
+```
